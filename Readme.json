@@ -1,0 +1,97 @@
+"""
+Webscrapping project - end to end
+Deployment of project in multi cloud platform env(euroku/aws/azure/gcp). After deployment we can share the link
+Challenge - this will be good for real time and put in project
+Code share: https://codeshare.io/eV3zN4
+There are two projects  - `1.review scrapper or review flask and 2.image scrapper --https://drive.google.com/drive/folders/1JVacVnkaLBRiniBZuqPVhsVKqIGXFgPj
+Flipkart website - search ex: iphone and similarly we can search in other website for iphone..
+--Build a system where I will be able to extract information given on a particular website.
+ex: Can I go with a Iphone or not. or try to buy some product. whether I need to buy a product. what will be helpful
+reviews will be helping. 5 star, 2star, 3 star......we see rating,coommnts,person name, date, likes/ dislikes....
+
+--Can you build review sentimental analysis system where I am not supposed to read each and every review. we need a precise answer
+whether I need to buy or not supposed to buy
+- get 1 lakh reviews in my local or cloud system and then on top of it, if I am going to apply some Sentimental analysis
+based algorithm. After this we will be able to get answer.
+
+- Review Scrapper will be used for this, it is scrapping data from existing website or from any existing domain.
+
+- Going forward ML/DL/CV/NLP projects, data acquisition is a major challenge. will dont have required attributes.
+we need to scrap data from one of the existing system
+ex: stock prediction(develop a system). how to make Decision, how this is stock going to behave in next day/3 months
+/6months/1year . stock market does not depends on historical data. It depends upon:
+-govt decision/investment/acqusition/policy/leader. These factor will not be available in historical data.
+- This will be provided by client in the social website forum or sites.
+- Build or pull out data from the intternet. who had done investment/poplicies/ acqusion each data. Scrapper will
+be able to help out.
+ex:  Computer Vision- we need 1000/10000 or more images to train model.Scrapper will be helpful in this case
+-we will be not able to save all images.
+- Scrapping project is very helpful and applicable every where. at any point, we need to scrap the data. and need
+to build an algorithm. Anything can be scrapped. It may be audio/video/text/images....
+
+P1 - version 2.x, P2 - ML- 3.6 version,P3 - DL 3.8version
+
+each project  we are doing separate settings of python interpreter.Every project try to create a new env and work
+on it. dont use base env by default.
+
+Python gives a feature to create multiple separate independent environments.--It is called as virtual environment
+By default pycharm allows to create separate env in settins. even we can work on base env, command used is
+conda activate ReviewFlask
+jupyter notebook will not work as it is tagged to base env,
+python
+- 'import pandas' it will not work until installed
+Deploy the code in heroku/aws/gcp/azure platform - it is constant approach - once it is depoloyed. code will be ava
+ilable to everyone. on top of this we can implement devops concept, CI/CD, jenkins, cubernetics, dockers. This
+will discuss in ML concepts
+
+Deployment of code in heroku/aws/azure:
+
+Code is up and running, will try to push this code to github repository,from this repository we can productionize
+this code to any of these cloud platform.Create account for below.there are variety of deployments. this is one kind.
+CI/CD ingration at the end of ML, docker, cubernatics, jenkins. AI with ops/ML with ops deployment in future.
+
+Heroku
+AWS
+Azure
+
+Steps for deployment:
+- we can push code using pycharm, command prompt or some IDE to github
+install git in local, install heroku and sign up. It allows you to host the application.
+github(muppidimogusala/Sai@sa1@) - Push the code to github repository,
+Heroku(navareddy2512@gmail.com/Sai@sa1@)
+- refer deployment document and process steps to push code to git
+git init - by default it will create .git file(meta file which holds all info)
+git add . - 
+"""
+"""
+Steps
+https://drive.google.com/drive/folders/1JVacVnkaLBRiniBZuqPVhsVKqIGXFgPj
+
+pip install -r requirements.txt
+
+pip install selenium
+
+https://chromedriver.chromium.org/downloads
+
+pip install requests
+
+
+#Try to store all of these images in mongo db 
+#Try to implement it with class and object 
+#Coding standard 
+# write a function for fetch all the image based on there name form data base 
+# Try to modify a code so that i will first search in data base and check if images are available for a 
+#respective search if not then only scrap 
+
+
+
+https://git-scm.com/downloads 
+
+https://devcenter.heroku.com/articles/heroku-cli
+
+
+https://dashboard.heroku.com/apps
+
+
+Deployment steps - https://docs.google.com/document/d/1mqAu3jHoibl94Q8-tqaei0NMi_lLgsj0/edit?usp=sharing&ouid=118282207943964605599&rtpof=true&sd=true
+"""

@@ -1,13 +1,13 @@
 from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as bs##beautiful soap
 from urllib.request import urlopen as uReq
 
 app = Flask(__name__)
 
 @app.route('/',methods=['GET'])  # route to display the home page
-@cross_origin()
+@cross_origin() ## This will be used to deploycode in cloud platform at different location
 def homePage():
     return render_template("index.html")
 
@@ -18,7 +18,7 @@ def index():
         try:
             searchString = request.form['content'].replace(" ","")
             flipkart_url = "https://www.flipkart.com/search?q=" + searchString
-            uClient = uReq(flipkart_url)
+            uClient = uReq(flipkart_url)##url request
             flipkartPage = uClient.read()
             uClient.close()
             flipkart_html = bs(flipkartPage, "html.parser")
